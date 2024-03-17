@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Back", "Back", "{CBE98714-DC38-40EC-8412-9666313B0470}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{49879640-17D5-4EEC-A126-E509CA2DA7BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AngularTestWebEntwickler.API", "Back\src\AngularTestWebEntwickler.API\AngularTestWebEntwickler.API.csproj", "{4C03774A-C8A8-4A7E-B686-DF9F6A45D4E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4C03774A-C8A8-4A7E-B686-DF9F6A45D4E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C03774A-C8A8-4A7E-B686-DF9F6A45D4E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C03774A-C8A8-4A7E-B686-DF9F6A45D4E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C03774A-C8A8-4A7E-B686-DF9F6A45D4E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{49879640-17D5-4EEC-A126-E509CA2DA7BF} = {CBE98714-DC38-40EC-8412-9666313B0470}
+		{4C03774A-C8A8-4A7E-B686-DF9F6A45D4E3} = {49879640-17D5-4EEC-A126-E509CA2DA7BF}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {331F99A0-82E1-4096-88D0-CF0567E787C3}
+	EndGlobalSection
+EndGlobal

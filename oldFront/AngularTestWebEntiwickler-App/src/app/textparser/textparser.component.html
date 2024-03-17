@@ -1,0 +1,18 @@
+<div class="col-md-6" style="border:solid;justify-content:center;align-items:center;flex-direction:row" >
+  <label style="font-style:unset;font-size:xx-large">Text Parser</label>
+  <br />
+  <p>Text to parse:
+      <!-- <asp:TextBox ID="txtEingabe" runat="server"></asp:TextBox> -->
+      <input type="text" ID="txtEingabe" [(ngModel)]="_filter">
+  </p>
+  <p>
+
+      <!-- <asp:Button ID="btnSenden" runat="server" OnClick="Button1_Click" Text="Senden" /> -->
+      <input type="button" id="btnSenden" value="Senden">
+    </p>
+  &nbsp;&nbsp;
+  <br>
+  <br>
+  <!-- <p style="font-weight: bold">Parsed text: <asp:Label ID="lblResParse" runat="server" Width="376px"></asp:Label></p> -->
+  <label for=""style="font-weight: bold">Parsed text:{{_filter}}</label>  <p ID="lblResParse" runat="server" Width="376px"></p>
+</div>
